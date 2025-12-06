@@ -286,7 +286,7 @@ a {
 
 .box {
   width: 250px;
-  height: 270px;
+  height: 290px;
   background-color: #085b5b;
   border-radius: 15px;
   margin: 10px 50px 20px 0px;
@@ -351,19 +351,20 @@ a {
 
 /* #experience {
   background-color: #085b5b;
+  padding: 60px 0;
   
 } */
 
-.text-2 {
+/* .text-2 {
   display: block;
-  padding: 20px;
+  padding: 25px 30px;
   gap: 10px;
   align-items:center;
   justify-content: left;
   border: #085b5b 2px solid;
   background-color: #085b5b;
   margin: 20px;
-  border-radius: 20px;  
+  border-radius: 18px;  
 }
 
 .text-2 h2 {
@@ -396,7 +397,184 @@ a {
   margin-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
+} */
+
+#Sertif {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
+
+/* ===== SECTION SERTIFIKAT ===== */
+/* #Sertif {
+  padding: 60px 0;
+  background: #f6f8fa;
+  font-family: "Poppins", sans-serif;
+} */
+
+/* #Sertif .content h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0a3636;
+  margin-bottom: 40px;
+} */
+
+/* Grid sertifikat */
+#Sertif .content-sertif {
+  display: flex;
+  gap: 20px;
+  margin: auto;
+  padding: 10px 20px;
+  justify-content: end;
+}
+
+/* Card sertifikat */
+#Sertif .text {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 2px solid #085b5b;
+  padding: 20px;
+  transition: all 0.3s ease;
+  text-align: center;
+  width: 800px;
+}
+
+/* Hover efek */
+#Sertif .text:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+/* Gambar sertifikat */
+#Sertif .text img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+/* Judul h2 */
+#Sertif .text h2 {
+  font-size: 16px;
+  color: #085b5b;
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
+}
+
+#Sertif .text h2 i {
+  font-size: 10px;
+  color: #0a3636;
+}
+
+/* Tanggal / masa berlaku */
+#Sertif .text p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #Sertif .content h2 {
+    font-size: 26px;
+  }
+  
+  #Sertif .text {
+    padding: 18px;
+  }
+}
+
+
+/* ===== SECTION EXPERIENCE ===== */
+#Experience {
+  padding: 60px 0;
+  font-family: inter;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#Experience .content h2 {
+  text-align: center;
+  /* font-size: 32px;
+  font-weight: 700;
+  color: #085b5b;
+  margin-bottom: 40px; */
+}
+
+/* Container utama */
+#Experience .experience {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* Card tiap pengalaman */
+#Experience .text-2 {
+  background: #085b5b;
+  padding: 25px 30px;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+#Experience .text-2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+/* Judul pekerjaan */
+#Experience .text-2 h2 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#Experience .text-2 h2 i {
+  font-size: 12px;
+  color: white;
+}
+
+/* Periode kerja */
+#Experience .text-2 p {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 12px;
+}
+
+/* List tugas */
+#Experience .text-2 ul {
+}
+
+#Experience .text-2 ul li {
+  font-size: 14px;
+  line-height: 1.6;
+  color: white;
+  margin-bottom: 6px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #Experience .text-2 {
+    padding: 20px;
+  }
+
+  #Experience .text-2 h2 {
+    font-size: 18px;
+  }
+}
+
 
 #Contact {
   display: flex;
@@ -484,9 +662,166 @@ a {
 
 }
 
-.content-2 i {
-
+/* #Porto {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 200PX;
 }
+
+.box-white {
+  border: 2px solid #085b5b;
+  background-color: white;
+  border-radius: 15px;
+  width: 1200px;
+  height: 1800px;
+}
+
+.box-white img {
+  width: 170px;
+  height: 250px;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+} */
+
+/* ===== SECTION PORTOFOLIO ===== */
+#Porto {
+  background: #085b5b;
+  padding: 60px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+#Porto .content h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0a3636;
+  margin-bottom: 40px;
+}
+
+/* Wrapper seluruh card */
+.porto-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Box per kategori */
+.porto-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 25px;
+  border: 2px solid #085b5b;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+/* Judul kategori */
+.porto-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #085b5b;
+}
+
+/* Area scroll gambar (horizontal) */
+.porto-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding-bottom: 10px;
+  scrollbar-width: thin;
+}
+
+.porto-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.porto-scroll::-webkit-scrollbar-thumb {
+  background: #085b5b;
+  border-radius: 10px;
+}
+
+/* Gambar-gambar */
+.porto-scroll img {
+  width: 220px;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  object-fit: cover;
+  flex-shrink: 0;
+  transition: 0.3s ease;
+}
+
+.porto-scroll img:hover {
+  transform: scale(1.05);
+}
+
+/* Deskripsi */
+.porto-card p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+}
+
+#Porto {
+  padding: 40px 20px;
+  background: #EAF1F5;
+}
+
+.portfolio-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 15px;
+}
+
+.card h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.slider {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 10px;
+}
+
+.slider img {
+  height: 260px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  scroll-snap-align: start;
+}
+
+.slider::-webkit-scrollbar {
+  height: 6px;
+}
+
+.slider::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.desc {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
 
 
 
